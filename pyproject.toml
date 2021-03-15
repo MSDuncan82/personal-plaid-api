@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "personal-plaid-api"
+version = "0.1.0"
+description = ""
+authors = ["Michael Duncan <msduncan82@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.63.0"
+pydantic = "^1.8.1"
+plaid-python = "^7.2.0"
+python-dotenv = "^0.15.0"
+docker-compose = "^1.28.5"
+click = "^7.1.2"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
